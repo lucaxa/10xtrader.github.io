@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(city-846067_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	 font-family: sans-serif;
+	background-attachment:fixed;
+	
+}
+.header{
+	background:rgba(0,0,0,9);
+	 padding:6px 24px;
+	 text-align: left;
+	 color: orange;
+	 margin-top: 0px;
+	letter-spacing:1px;
+	font:caption;
+	font-size:60px;
+	text-transform: uppercase;
+	font-family:'Abril Fatface', cursive;
+}
+.menu{
+	position: sticky;
+	top:0px;
+	background-image:url(NYC3.jpg);
+	background-size:cover;
+	margin: 0px;
+	overflow: hidden;
+}
+.menu a{
+	font: menu;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+	float:left;
+	display:inline-block;
+	color: black;
+	text-align:center;
+	padding:16px 24px;
+}
+.menu a:hover{
+	background:#ff9f1c;
+	color:black;
+} 
+.menu ul{
+	
+	display: inline-flex;
+	list-style: none;
+	color: black;
+}
+.menu .fa{
+	margin-right:-800px;
+	
+}
+
+.head{
+	font-size: 30px;
+	color:orange;
+	text-align: center;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	margin-top:50px;
+	font-family: 'Abril Fatface', cursive;
+	
+}
+
+.head3{
+	font-size:40px;
+	color:orange;
+	font-family: 'Abril Fatface', cursive;
+}
+	
+.vid{
+	position:absolute;
+    margin-top:10px;
+	margin-left:850px;
+	
+}
+.para{
+	
+	font-size:17px;
+	color:orange;
+	font-family: 'Lobster', cursive;
+	text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+	background-image:url(NYC.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	opacity:2px;
+	filter:blur(0.5);
+}
+.para H4{
+	font-size:30px;
+	position:absolute;
+	color:Orange;
+	font-family: 'Abril Fatface', cursive;
+}
+
+
+	
